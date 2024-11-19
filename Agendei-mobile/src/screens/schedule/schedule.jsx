@@ -10,9 +10,7 @@ LocaleConfig.locales["pt-BR"] = ptBR;
 LocaleConfig.defaultLocale = "pt-BR";
 
 function Schedule() {
-  const [selectedDate, setSelectDate] = useState(
-    new Date().toISOString().slice(0, 10)
-  );
+  const [selectedDate, setSelectDate] = useState("");
   const [selectedHour, setSelectHour] = useState("");
 
   return (

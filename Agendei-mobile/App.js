@@ -10,7 +10,7 @@ import Schedule from "./src/screens/schedule/schedule.jsx";
 function App() {
   return (
     <>
-      <Main />
+      <Schedule />
     </>
   );
 }
